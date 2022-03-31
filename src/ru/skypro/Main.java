@@ -37,11 +37,55 @@ public class Main {
             if (deliveryDistance < 20) {
                 System.out.println("Delivery will take 1 day");
             } else if (deliveryDistance > 20 && deliveryDistance < 60) {
-            System.out.println("Delivery will take 2 days");
-        } else {
-            System.out.println("Delivery will take 3 days");
-        }
+                System.out.println("Delivery will take 2 days");
+            } else {
+                System.out.println("Delivery will take 3 days");
+            }
 
+        }
+        // Задание 5
+        {
+            int monthnumber = 12;
+            switch (monthnumber) {
+                case 1:
+                    System.out.println("Winter");
+                    break;
+                case 2:
+                    System.out.println("Winter");
+                    break;
+                case 3:
+                    System.out.println("Spring");
+                    break;
+                case 4:
+                    System.out.println("Spring");
+                    break;
+                case 5:
+                    System.out.println("Spring");
+                    break;
+                case 6:
+                    System.out.println("Summer");
+                    break;
+                case 7:
+                    System.out.println("Summer");
+                    break;
+                case 8:
+                    System.out.println("Summer");
+                    break;
+                case 9:
+                    System.out.println("Autumn");
+                    break;
+                case 10:
+                    System.out.println("Autumn");
+                    break;
+                case 11:
+                    System.out.println("Autumn");
+                    break;
+                case 12:
+                    System.out.println("Winter");
+                    break;
+                default:
+                    System.out.println("This month does not exist");
+            }
         }
     }
 }
